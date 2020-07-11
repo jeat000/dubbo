@@ -44,3 +44,25 @@ compiler/.gradle/*
 
 # protobuf
 dubbo-serialization/dubbo-serialization-protobuf/build/*
+
+#java
+*.class
+
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+#maven ignore
+target/
+build/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+# system ignore
+.DS_Store
+Thumbs.db
